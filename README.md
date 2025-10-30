@@ -87,12 +87,22 @@ The following system roles from Slack will be synced as entitlements:
 
 | Role Name | Description |
 |-----------|-------------|
-| Analytics Admin | Access analytics dashboard |
-| Audit Logs Admin | Access audit logs and exports |
-| Content Admin | Review and manage flagged content, custom emoji, Slackbot responses, DLP |
-| Roles Admin | Create custom roles and manage system role assignments |
-| User Lifecycle Admin | Manage sessions and deactivate accounts |
-| Workflows Admin | Manage workflows |
+| Analytics Admin | View the analytics dashboard |
+| Audit Logs Admin | Access audit logs |
+| Channels Admin | Create private channels, rename channels, convert public channels to private, archive and unarchive channels, and adjust posting permissions |
+| Content Admin | Review and manage flagged content |
+| Customization Manager | Manage custom emoji and Slackbot responses |
+| DLP Admin | Manage data loss prevention (DLP) |
+| Export Admin | Access and manage exports |
+| Legal Holds Admin | Create, edit, and release legal holds |
+| Message Activity Manager | View message activity in channels |
+| Roles Admin | Create custom roles and manage who is assigned system roles |
+| Sales Admin | Manage Slack Sales Home |
+| Salesforce Admin | Manage connections to Salesforce |
+| Security Admin | Manage sessions and deactivate accounts |
+| Template Admin | Create, manage, and publish custom templates |
+| Users Admin | Add, remove, or deactivate non-admin users |
+| Workflow Admin | Manage workflows |
 
 Reference: https://slack.com/help/articles/201314026-Permissions-by-role-in-Slack
 
@@ -856,14 +866,24 @@ When Okta releases native Slack support in H1 2026:
 
 ### A. Slack System Roles - Full List
 
-| Role ID Pattern | Role Name | Description |
-|-----------------|-----------|-------------|
-| Rv* (varies) | Analytics Admin | View analytics dashboard |
-| Rv* (varies) | Audit Logs Admin | Access audit logs and exports |
-| Rv* (varies) | Content Admin | Review flagged content, manage custom emoji, Slackbot, DLP |
-| Rv* (varies) | Roles Admin | Create custom roles and manage system role assignments |
-| Rv* (varies) | User Lifecycle Admin | Manage sessions and deactivate accounts |
-| Rv* (varies) | Workflows Admin | Manage workflows |
+| Role Name | Description |
+|-----------|-------------|
+| Analytics Admin | View the analytics dashboard |
+| Audit Logs Admin | Access audit logs |
+| Channels Admin | Create private channels, rename channels, convert public channels to private, archive and unarchive channels, and adjust posting permissions |
+| Content Admin | Review and manage flagged content |
+| Customization Manager | Manage custom emoji and Slackbot responses |
+| DLP Admin | Manage data loss prevention (DLP) |
+| Export Admin | Access and manage exports |
+| Legal Holds Admin | Create, edit, and release legal holds |
+| Message Activity Manager | View message activity in channels |
+| Roles Admin | Create custom roles and manage who is assigned system roles |
+| Sales Admin | Manage Slack Sales Home |
+| Salesforce Admin | Manage connections to Salesforce |
+| Security Admin | Manage sessions and deactivate accounts |
+| Template Admin | Create, manage, and publish custom templates |
+| Users Admin | Add, remove, or deactivate non-admin users |
+| Workflow Admin | Manage workflows |
 
 Note: Slack role IDs are workspace-specific. Your workspace may have different IDs.
 
